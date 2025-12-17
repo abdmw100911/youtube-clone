@@ -1,0 +1,52 @@
+    .video-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 15px;
+            row-gap:25px;
+    }                           
+    .thumbnail{
+        width: 100%;
+        }
+    .Title{
+        font-weight:bold;
+        width: 100%;
+        margin-bottom: 15px;
+        }
+    .Author{
+        color:rgb(96, 96, 96);
+        margin-bottom: 10px;
+    }
+    .Stats{
+        color:rgb(96, 96, 96); 
+
+    }
+    .channel_pic_div{
+        width:40px;
+    }
+    .channel_pic{
+        width:100%;
+        border-radius: 40px;
+    }
+    .information-div{
+        margin-top:10px;
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        column-gap: 10px;
+    }
+    .yt-check {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 16px;
+    height: 16px;
+
+    background-color: #606060;  /* YouTube grey */
+    color: white;
+
+    border-radius: 50%;         /* THIS makes it round */
+    font-size: 12px;
+    font-weight: bold;
+
+    margin-left: 6px;
+    }

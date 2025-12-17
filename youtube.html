@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Youtube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/video.css">
+
+    <style>
+        .header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 55px;
+            border-color:gray;
+            border-width:1px;
+            border-style:solid;
+            margin-bottom: 20px;
+        }
+        .start-section{
+            background-color: lightblue;
+            width: 150px;
+        }
+        .center-section{
+            background-color: lightpink;
+            flex:1;
+            margin-left:70px;
+            margin-right:35px;
+            max-width: 500px;
+
+        }
+        .end-section{
+            background-color: lightblue;
+            width:200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="start-section">
+            start-section
+        </div>
+        <div class="center-section">
+            <input type="text" placeholder="Search" class="search-box">
+        </div>
+        <div class="end-section">
+            end-section
+        </div>
+    </div>
+
+    <div class="video-grid">
+
+        <div class="video-preview-card">
+
+            <div class="thumbnail-div">
+                <img src="thumbnails/thumbnail-1.webp" class="thumbnail">
+            </div>
+    
+            <div class="information-div">
+    
+                <div class="channel_pic_div">
+                    <img src="channel images/image.png" class="channel_pic">
+                </div>
+    
+                <div class="video-description-div">
+    
+                    <p class="Title">
+                        Talking Tech and AI with Google CEO Sundar Pichai! 
+                    </p>
+                    <p class="Author">
+                        Marques Brownlee
+                    </p>
+                    <p class="Stats">
+                        3.4M views · 6 months ago
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+    
+        <div class="video-preview-card">
+
+            <div class="thumbnail-div">
+                <img src="thumbnails/thumbnail-2.webp" class="thumbnail">
+            </div>
+    
+            <div class="information-div">
+    
+                <div class="channel_pic_div">
+                    <img src="channel images/unnamed.jpg" class="channel_pic">
+                </div>
+    
+                <div class="video-description-div">
+    
+                    <p class="Title">
+                        Try Not To Laugh Challenge #9 
+                    </p>
+                    <p class="Author">
+                        Markiplier
+                    </p>
+                    <p class="Stats">
+                        19M views · 4 years ago
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="video-preview-card">
+
+            <div class="thumbnail-div">
+                <img src="thumbnails/henry.jpg" class="thumbnail">
+            </div>
+    
+            <div class="information-div">
+    
+                <div class="channel_pic_div">
+                    <img src="channel images/emirates_channel.jpg" class="channel_pic">
+                </div>
+    
+                <div class="video-description-div">
+    
+                    <p class="Title">
+                        Henry scores on Arsenal return against Leeds | Arsenal vs Leeds | FA Cup Third Round 2012
+                    </p>
+                    <p class="Author">
+                        The Emirates FA Cup <span class="yt-check">&#10003;</span>
+                    </p>
+                    <p class="Stats">
+                        9.2M views · 13 years ago
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="video-preview-card">
+
+            <div class="thumbnail-div">
+                <img src="thumbnails/messi.jpg" class="thumbnail">
+            </div>
+    
+            <div class="information-div">
+    
+                <div class="channel_pic_div">
+                    <img src="channel images/fifa.jpg" class="channel_pic">
+                </div>
+    
+                <div class="video-description-div">
+    
+                    <p class="Title">
+                        THE GREATEST FINAL EVER?! | Argentina v France | FIFA World Cup Qatar 2022 Highlights 
+                    </p>
+                    <p class="Author">
+                        FIFA <span class="yt-check">&#10003;</span>
+                    </p>
+                    <p class="Stats">
+                        29M views · 2 years ago 
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="video-preview-card">
+
+            <div class="thumbnail-div">
+                <img src="thumbnails/islam.jpg" class="thumbnail">
+            </div>
+    
+            <div class="information-div">
+    
+                <div class="channel_pic_div">
+                    <img src="channel images/islam.jpg" class="channel_pic">
+                </div>
+    
+                <div class="video-description-div">
+    
+                    <p class="Title">
+                        Islam Explained
+                    </p>
+                    <p class="Author">
+                        Cogito
+                    </p>
+                    <p class="Stats">
+                        2.4M views · 4 years ago
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="video-preview-card">
+
+            <div class="thumbnail-div">
+                <img src="thumbnails/ssd.jpg" class="thumbnail">
+            </div>
+    
+            <div class="information-div">
+    
+                <div class="channel_pic_div">
+                    <img src="channel images/supersimpledev.jpg" class="channel_pic">
+                </div>
+    
+                <div class="video-description-div">
+    
+                    <p class="Title">
+                        HTML & CSS Full Course - Beginner to Pro 
+                    </p>
+                    <p class="Author">
+                        supersimpledev <span class="yt-check">&#10003;</span>
+                    </p>
+                    <p class="Stats">
+                        17M views · 3 years ago
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="video-preview-card">
+
+            <div class="thumbnail-div">
+                <img src="thumbnails/brocode.jpg" class="thumbnail">
+            </div>
+    
+            <div class="information-div">
+    
+                <div class="channel_pic_div">
+                    <img src="channel images/brocode.jpg" class="channel_pic">
+                </div>
+    
+                <div class="video-description-div">
+    
+                    <p class="Title">
+                        Learn Pandas in 1 hour! 🐼
+                    </p>
+                    <p class="Author">
+                        BroCode <span class="yt-check">&#10003;</span>
+                    </p>
+                    <p class="Stats">
+                        116K views · 3 months ago
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="video-preview-card">
+
+            <div class="thumbnail-div">
+                <img src="thumbnails/freecodecamp.jpg" class="thumbnail">
+            </div>
+    
+            <div class="information-div">
+    
+                <div class="channel_pic_div">
+                    <img src="channel images/freecodecamp.jpg" class="channel_pic">
+                </div>
+    
+                <div class="video-description-div">
+    
+                    <p class="Title">
+                        Python for Beginners – Full Course [Programming Tutorial]
+                    </p>
+                    <p class="Author">
+                        freeCodeCamp.org <span class="yt-check">&#10003;</span>
+                    </p>
+                    <p class="Stats">
+                        4M views · 3 years ago
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="video-preview-card">
+
+            <div class="thumbnail-div">
+                <img src="thumbnails/barca.jpg" class="thumbnail">
+            </div>
+    
+            <div class="information-div">
+    
+                <div class="channel_pic_div">
+                    <img src="channel images/barca.jpg" class="channel_pic">
+                </div>
+    
+                <div class="video-description-div">
+    
+                    <p class="Title">
+                        REAL MADRID 2 vs 5 FC BARCELONA | SPANISH SUPER CUP FINAL | EL CLÁSICO 🔵🔴
+                    </p>
+                    <p class="Author">
+                        FC Barcelona <span class="yt-check">&#10003;</span>
+                    </p>
+                    <p class="Stats">
+                        75M views · 11 months ago
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>

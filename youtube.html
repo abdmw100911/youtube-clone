@@ -10,45 +10,28 @@
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/video.css">
 
-    <style>
-        .header{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            height: 55px;
-            border-color:gray;
-            border-width:1px;
-            border-style:solid;
-            margin-bottom: 20px;
-        }
-        .start-section{
-            background-color: lightblue;
-            width: 150px;
-        }
-        .center-section{
-            background-color: lightpink;
-            flex:1;
-            margin-left:70px;
-            margin-right:35px;
-            max-width: 500px;
-
-        }
-        .end-section{
-            background-color: lightblue;
-            width:200px;
-        }
-    </style>
 </head>
 <body>
     <div class="header">
         <div class="start-section">
-            start-section
+            <img src="icons/hamburger-menu.svg" class="hamburger-menu">
+            <img src="icons/youtube-logo.svg" class="youtube-logo">
         </div>
+
+
         <div class="center-section">
             <input type="text" placeholder="Search" class="search-box">
+            <button class="search-button"><img src="icons/search.svg" class="search-icon"></button>
+            <button class="voice-search-button"><img src="icons/voice-search-icon.svg" class="voice-search"></button>
         </div>
+        
+
         <div class="end-section">
-            end-section
+            <img src="icons/upload.svg" class="upload">
+            <img src="icons/youtube-apps.svg" class="youtube-apps">
+            <img src="icons/notifications.svg" class="notifications">
+            <img src="channel images/abdullah.jpg" class="channel-images">
+
         </div>
     </div>
 

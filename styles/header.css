@@ -118,3 +118,6 @@
          .voice-search{
           height: 24px;
         }
+        .channel-images,.youtube-logo,.hamburger-menu,.notifications,.search-button,.upload,.voice-search,.youtube-apps:hover{
+          cursor: pointer;
+        }

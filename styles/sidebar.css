@@ -2,11 +2,26 @@
     background-color:white;
     position:fixed;
     left: 0;
-    top:56px;
+    top:54px;
     bottom:0px;
     width:72px;
-    border-right-width:1px;
-    border-right-style: solid;
-    border-right-color: black;
-
+    z-index: 101;
+}
+.sidebar-link{
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-link:hover{
+    background-color: rgb(249, 249, 249);   
+    cursor: pointer;
+}
+.sidebar-link-names{
+    font-size: 10px;
+}
+.shorts-icon,.home-icon,.explore-icon,.music-icon,.library-icon,.originals-icon,.subscriptions-icon{
+    height: 25px;
+    margin-bottom: 6px;
 }

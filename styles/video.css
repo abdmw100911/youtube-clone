@@ -1,3 +1,6 @@
+    .video-preview-card:hover{
+        cursor:pointer;
+    }
     .video-grid{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;

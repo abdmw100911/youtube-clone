@@ -93,7 +93,7 @@
         .search-button{
           height: 44px;
           width:64px;
-          background-color: rgb(247, 247, 247);;
+          background-color: rgb(247, 247, 247);
           border-width: 0.5px;
           border-color: rgb(204, 204, 204);
           border-style: solid;
@@ -104,6 +104,14 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          position: relative;
+        }
+        .search-button:hover{
+          background-color: rgb(240, 240, 240);
+        }
+        .search-button:active{
+          background-color: rgb(247, 247, 247);
+
         }
         .voice-search-button{
           height: 40px;
@@ -115,9 +123,48 @@
           justify-content: center;
           align-items: center;
         }
+        .voice-search-button:hover{
+          background-color: rgb(240, 240, 240);
+          cursor: pointer;
+          position: relative;
+        }
+        .voice-search-button:active{
+          background-color: rgb(247, 247, 247);
+        }
+
          .voice-search{
           height: 24px;
         }
         .channel-images,.youtube-logo,.hamburger-menu,.notifications,.search-button,.upload,.voice-search,.youtube-apps:hover{
           cursor: pointer;
         }
+        .tool-tip{
+          font-size: 12px;
+          position:absolute;
+          bottom: -45px;
+          background-color: rgba(96, 96, 96, 0.9);
+          color: white;
+          padding-left: 8px;
+          padding-right:8px;
+          padding-top:4px;
+          padding-bottom:4px;
+          border-radius: 2px;
+          opacity: 0;
+          transition: opacity 0.15s;
+        }
+        .search-button:hover .tool-tip{
+          opacity: 1;
+        }
+        .voice-search-button:hover .tool-tip{
+          opacity: 1;
+        }
+        .upload-div,.youtube-apps-div,.notifications-div{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+        }
+        .upload-div:hover .tool-tip,.youtube-apps-div:hover .tool-tip, .notifications-div:hover .tool-tip{
+          opacity: 1;
+        }
+        
